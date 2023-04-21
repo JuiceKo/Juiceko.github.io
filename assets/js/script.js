@@ -174,7 +174,7 @@ var mapProp = {
   zoom:10,
   mapTypeId:google.maps.MapTypeId.ROADMAP,
   disableDefaultUI: true,
-  scrollwheel: false
+  scrollwheel: true
   };
 var map=new google.maps.Map(document.getElementById("googleMap")
   ,mapProp);
