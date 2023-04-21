@@ -250,18 +250,21 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="moreDetails">
-                                <h2 class="con-title">Plus sur moi</h2>
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum animi repudiandae nihil aspernatur repellat temporibus doloremque sint ea laboriosam, excepturi iure inventore rerum voluptatibus, suscipit totam, sit necessitatibus. Rerum, blanditiis. </p>
-                                <ul class="address">
-                                    <li><i class="pe-7s-map-marker"></i><span>Colmar, 68230,<br>France</span></li>
-                                    <li><i class="pe-7s-mail"></i><span>didierjean.bastien@gmail.com</span></li>
-                                    <li><i class="pe-7s-phone"></i><span>(+33) 07 88 64 26 69</span></li>
-                                    <li><i class="pe-7s-global"></i><span><a href="https://JuiceKo.github.io">Page Web</a></span></li>
-                                </ul>
-                            </div>
-                        </div>
+                        <form action="mailto:bastien.didierjean@uha.fr" method="post" enctype="text/plain">
+                            <label for="nom">Nom :</label>
+                            <input type="text" id="nom" name="nom" required>
+                            <br>
+                            <label for="email">E-mail :</label>
+                            <input type="email" id="email" name="email" required>
+                            <br>
+                            <label for="objet">Objet :</label>
+                            <input type="text" id="objet" name="objet" required>
+                            <br>
+                            <label for="message">Message :</label>
+                            <textarea id="message" name="message" rows="5" cols="50" required></textarea>
+                            <br>
+                            <input type="submit" value="Envoyer">
+                        </form>
 
                         <!-- <div class="col-sm-6">
                             <h2 class="con-title">Contactez moi ! </h2>
