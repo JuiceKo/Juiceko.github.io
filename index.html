@@ -250,20 +250,21 @@
                                 </ul>
                             </div>
                         </div>
-                        <form action="mailto:bastien.didierjean@uha.fr" method="post" enctype="text/plain">
-                            <label for="nom">Nom :</label>
-                            <input type="text" id="nom" name="nom" required>
-                            <br>
-                            <label for="email">E-mail :</label>
-                            <input type="email" id="email" name="email" required>
-                            <br>
-                            <label for="objet">Objet :</label>
-                            <input type="text" id="objet" name="objet" required>
-                            <br>
-                            <label for="message">Message :</label>
-                            <textarea id="message" name="message" rows="5" cols="50" required></textarea>
-                            <br>
-                            <input type="submit" value="Envoyer">
+                        <h2>Donner Feedback à notre site Web.</h2>
+                        <form action="mailto:bastien.didierjean@uha.fr" method="get" enctype="text/plain">
+                          <p>Nom: <input type="text" name="name" /></p>
+                          <p>Email: <input type="text" name="email" /></p>
+                          <p>
+                            Commentaires:
+                            <br />
+                            <textarea name="comments" rows="12" cols="35">Envoyez votre commentaires au site Web.</textarea>
+                            <br />
+                          </p>
+                    
+                          <p>
+                            <input type="submit" name="submit" value="Send" />
+                            <input type="reset" name="reset" value="Clear Form" />
+                          </p>
                         </form>
 
                         <!-- <div class="col-sm-6">
