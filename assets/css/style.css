@@ -297,7 +297,7 @@ header{
 }
 
 .port figcaption span:before {
-	content: 'by ';
+	content: 'de ';
 }
 
 .port figcaption a {
