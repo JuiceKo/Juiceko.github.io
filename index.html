@@ -205,6 +205,14 @@
 
                                   // Lorsque vous cliquez sur le bouton
                                   document.getElementById('btn-go-to-page2').onclick = goToPage2;
+
+                                  // Récupération de l'état précédent depuis le cookie
+                                  const previousState = JSON.parse(document.cookie.split(';').find(cookie => cookie.includes('previousState')).split('=')[1]);
+
+                                    // Utilisation de l'état précédent si disponible
+                                  if (previousState) {
+                                      console.log(previousState.currentPage); // Faites quelque chose avec l'état précédent
+}
                             </script>
                     </div>
                 </div>
