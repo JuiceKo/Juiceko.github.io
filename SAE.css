@@ -26,15 +26,18 @@ ul {
   .container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   
   .row {
     display: flex;
-    width: 50%;
+    justify-content: space-around;
+    flex-basis: 50%;
+    flex-wrap: wrap;
   }
   
   .box {
-    flex: 1;
+    flex: 0 1 calc(33.33% - 20px);
     border: 1px solid black;
     padding: 20px;
     margin: 10px;
@@ -52,3 +55,4 @@ ul {
     top: 0px;
     width: 100%;
 }
+
