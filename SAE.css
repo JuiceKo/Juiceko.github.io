@@ -4,6 +4,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    border-radius: 3%;
   }
   
   li {
@@ -16,8 +17,7 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;    
   }
   
   a { 
