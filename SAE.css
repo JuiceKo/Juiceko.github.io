@@ -42,7 +42,7 @@ ul {
   }
   
   .box {
-    flex: 0 1 calc(33.33% - 20px);
+    flex: 0 1 calc(50% - 20px);
     border: 1px solid black;
     padding: 20px;
     margin: 10px;
