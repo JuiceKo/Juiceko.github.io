@@ -16,6 +16,7 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
   }
   
   li a:hover {
@@ -45,4 +46,9 @@ ul {
     max-height: 200px;
     object-fit: cover;
   }
-  
+
+#navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
