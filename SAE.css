@@ -17,12 +17,13 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
+    border-radius: 3%;
   }
   
   a { 
     font-family: 'Raleway', sans-serif;
   }
-  
+
   li a:hover {
     background-color: white;
   }
