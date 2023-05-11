@@ -55,9 +55,10 @@ ul {
     object-fit: cover;
 }
 
-#navbar {
+.navbar {
     position: fixed;
-    top: 0px;
-    width: 100%;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
 }
 
