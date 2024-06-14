@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONITORING :</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        p {
+            text-align: justify;
+        }
+        .section-divider {
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            position: relative;
+            width: 50%;
+            height: 400px;
+            margin: auto;
+            margin-top: 50px;
+        }
+        .image1 {
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: translate(25%, -25%);
+        }
+        .image2 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            transform: translate(-25%, 25%);
+        }
+        
+    </style>
+</head>
+<body class="bg-gray-250 p-8">
+
+<div class="max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold mb-8 text-center">MONITORING :</h1>
+
+    <section class="mb-8 bg-gray-100 p-6 rounded-lg shadow-2xl">
+        <p class="mb-4 text-justify">En tant qu’élève R&T, le monitoring fait partie de mon domaine d’activité. Je dois être capable de mettre en place une infrastructure mais ça ne s’arrête pas là. Je dois aussi être capable de maintenir cette infrastructure dans un état stable une fois déployée, et cela implique sa surveillance. </p>
+
+        <h2 class="text-xl font-semibold mb-4">INTRODUCTION :</h2>
+        <p class="mb-4 text-justify">Bien que le monitoring soit très important pour un élève de R&T, je n’ai pas eu l’occasion d’avoir beaucoup de cours dessus. On m’a enseigné la philosophie autour du monitoring dans la théorie, ce qui m’a permis d’en comprendre les enjeux et utilité, me je n’ai pas la chance de pratiquer. </p>
+    </section>
+    <hr class="section-divider">
+
+    
+
+    <section class="mb-8 bg-gray-100 p-6 rounded-lg" style="box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);">
+        <h2 class="text-xl font-semibold mb-4">ALTERNANCE :</h2>
+        <p class="mb-4">Mes premiers pas dans la pratique se sont donc faits lors de ma troisième année de BUT que j’ai fait en alternance. Comme précisé dans la partie « Virtualisation », j’ai mis en place pour mon entreprise une infrastructure virtualisée composée de plusieurs serveurs, ordinateurs et machines virtuelles. </p>
+        <p class="mb-4">Pour accompagner cette infrastructure lors de son cycle de vie, il est important de surveiller sa « santé », son bon fonctionnement ainsi que de bien gérer les ressources qui lui sont accordées. C’est donc naturellement qu’il fallait utiliser une solution de monitoring pour ma récente infrastructure. Nous possédions déjà une solution de monitoring mais celle-ci n’était aussi complète qu’espéré. C’est pour cette raison qu’on m’a demandé de mettre en place et de configurer une nouvelle solution de monitoring. </p>
+    </section>
+    <hr class="section-divider">
+
+    <section class="mb-8 bg-gray-100 p-6 rounded-lg" style="box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);">
+        <h2 class="text-xl font-semibold mb-4">REFLEXION :</h2>
+        <p class="mb-4">La première étape est la réflexion. En effet, il faut d’abord réfléchir à nos besoins pour pouvoir choisir avec précision notre solution puisqu’il en existe plusieurs qui ont toute leurs avantages et inconvénients.</p>
+        <p class="mb-4">Après une étude de notre cas et des solutions disponibles, nous avons convenue que la solution gratuite Zabbix était celle qui regroupait toutes les fonctionnalités dont nous avions besoin.  Les principaux arguments étaient sa grande flexibilité ainsi que le fait que la solution était Open Source et donc gratuite. </p>
+    </section>
+    <hr class="section-divider">
+
+</div class="mb-8">
+
+<div class="max-w-4xl mx-auto">
+
+    <section class="mb-8 bg-gray-100 p-6 rounded-lg" style="box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);">
+        <h2 class="text-xl font-semibold mb-4">UTILISATION :</h2>
+        <p class="mb-4">Une fois la solution sélectionnée, il m’a fallut l’installer et la configurer.  Le but dans notre cas était de surveiller les performances des composantes physiques afin d’anticiper un quelconque manque de ressource ou détecter en avance des potentielles problèmes. </p>
+        <p class="mb-4">Mais dans notre cas le logiciel de monitoring n’a pas seulement une fonction de surveillance matériel. Grâce à une configuration poussée, il est possible de surveiller dans une certaine mesure des sites web ou des applications afin d’avoir une interface qui centralise toutes les données pour une meilleure ergonomie.</p>
+        <p class="mb-4">Ce projet m’a fait comprendre l’importance d’un logiciel de monitoring au sein d’une infrastructure. En effet, avoir des solutions en cas de défaillance est important mais j’ai compris que pouvoir les anticiper et les empêcher était encore plus efficace. </p>
+    </section>
+
+    <img src="assets/images/zabbix.jpg" alt="img02">
+
+    <p class="text-center text-sm italic mb-8">
+        Image de l'application entièrement réalisé à l'aide d'HTML/CSS + Ruby on rails
+    </p>
+
+    <section class="mb-8 bg-gray-100 p-6 rounded-lg" style="box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);">
+        <h2 class="text-xl font-semibold mb-4">CONCLUSION :</h2>
+        <p class="mb-4">Le monitoring et mon expériences avec ma permis de renforcé les compétences :  </p>
+        <ul class="list-disc pl-8 space-y-2">
+            <li class="flex items-start">
+                <span class="flex-shrink-0 w-2 h-2 rounded-full bg-black mt-2 mr-2"></span>
+                <span>AC34.01DevCloud | Concevoir, administrer et superviser une infrastructure Cloud </span>
+            </li>
+            <li class="flex items-start">
+                <span class="flex-shrink-0 w-2 h-2 rounded-full bg-black mt-2 mr-2"></span>
+                <span>AC34.02DevCloud | Orchestrer les ressources Cloud 
+                </span>
+            </li>
+            <li class="flex items-start">
+                <span class="flex-shrink-0 w-2 h-2 rounded-full bg-black mt-2 mr-2"></span>
+                <span>AC34.03DevCloud | Investiguer sur les incidents et les résoudre afin d’améliorer la qualité et la fiabilité des infrastructures</span>
+            </li>
+        </ul>
+    </section>
+</div>
+
+</body>
+</html>
+
+
